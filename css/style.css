@@ -2,3 +2,10 @@
     width: 5%;
     height: 5%;
 }
+#contact h2 {
+    text-align: center;
+    color: blue;
+}
+#contact h3 {
+    color: brown;
+}
