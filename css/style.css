@@ -11,6 +11,8 @@
 }
 #map img {
     margin-right: 10px;
+    width: 120%;
+    height: 120%;
 }
 #contactdetails {
     font-size: larger;
