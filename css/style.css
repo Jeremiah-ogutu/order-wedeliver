@@ -17,4 +17,6 @@
 #contactdetails {
     font-size: larger;
     margin-right: 10px;
+    background-image: url("images/contact photos/background1.jpeg");
+    background: plum;
 }
