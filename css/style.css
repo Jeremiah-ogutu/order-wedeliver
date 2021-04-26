@@ -9,3 +9,10 @@
 #contact h3 {
     color: brown;
 }
+#map img {
+    margin-right: 10px;
+}
+#contactdetails {
+    font-size: larger;
+    margin-right: 10px;
+}
