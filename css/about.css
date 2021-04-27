@@ -1,0 +1,41 @@
+body{
+  background: burlywood;
+}
+.wrapper{
+  margin-top: 10%;
+}
+.wrapper h1{
+  margin-bottom: 80px;
+  font-size: 55px;
+  text-align: center;
+}
+.team{
+  display: flex;
+  text-align: center;
+  width: auto;
+  justify-content: center;
+}
+.team .team-members{
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: cornflowerblue;
+}
+
+.text{
+  text-align: center;
+ 
+
+}
+.about{
+text-align: center;
+}
+.image{
+  float: left;
+}
+
+
+
