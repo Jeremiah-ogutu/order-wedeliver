@@ -1,0 +1,55 @@
+/* body{
+  background: lightgreen;
+}
+.wrapper{
+  margin-top: 20%;
+}
+.wrapper h1{
+  font-size: 52px;
+  margin-bottom: 8 0px;
+  text-align: center;
+ 
+}
+.team{
+  display: flex;
+  text-align: center;
+  width: auto;
+  justify-content: center;
+}
+.team .team-members{
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  position: relative;
+}
+.team .team-members h2{
+  color: darkcyan;
+  font-size: 28px;
+  margin-top: 50px;
+}
+.team .team-members p{
+  color: rgb(37, 37, 37);
+  text-transform: uppercase;
+  margin: 12px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */
