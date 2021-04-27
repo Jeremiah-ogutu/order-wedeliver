@@ -89,10 +89,14 @@ button{
    border-radius: 5px;
    font-family: inherit;
    font-size: 18px;
-   margin-bottom: 200px;
+   /* margin-bottom: 200px; */
 }
 .contact-form {
     margin-left: 400px;
+    background-image: url("images/contact photos/background3.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(114, 131, 80);
 }
 #message {
     width: 70%;
