@@ -35,6 +35,16 @@ body{
   text-transform: uppercase;
   margin: 12px 0;
 }
+.navigation_bar>nav>a{
+  display: inline;
+  text-align: center;
+  padding:14px 16px ;
+  background-color: goldenrod;
+}
+.navigation_bar{
+  float: right;
+  font-size: 25px;
+}
 
 
 
