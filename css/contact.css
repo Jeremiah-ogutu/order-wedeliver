@@ -1,0 +1,22 @@
+#customer-care img {
+    width: 5%;
+    height: 5%;
+}
+#contact h2 {
+    text-align: center;
+    color: blue;
+}
+#contact h3 {
+    color: brown;
+}
+#map img {
+    margin-right: 10px;
+    width: 120%;
+    height: 120%;
+}
+#contactdetails {
+    font-size: larger;
+    margin-right: 10px;
+    background-image: url("images/contact photos/background1.jpeg");
+    background: plum;
+}
