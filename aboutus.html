@@ -1,87 +1,187 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/style.css">
-  <title>About us page</title>
-</head>
-<body>
-  <div class="navigation_bar">
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#cart">Cart</a>
-      <a href="#about">About us</a>
-    <a href="#contact">contact Us</a>
-    </nav>
-  </div>
-  <div id="container">
-    <h1 class="about">About us</h1>
-    <div class="text">
-     <p>we are the leading selling and deliveringg company remaining during this corona period you dont have to worry alll you need to do is take your phone and go to <em>order-wedeliver</em>web page and have any thing that you need.</p>
-     <p>be sure to get your order ontime and at alower price.</p>
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="aboutusCSS/aboutus.css" type="text/css">
+        <link rel="stylesheet" href="aboutusCSS/bootstrap.css" type="text/css">
+    </head>
+    <body>
+      <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="topnav">
+                <a style="color:black;" class="active" href="#home">Home</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item">
+                        <a style="color:black;" class="nav-link" href="#featured-categories">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:black;" class="nav-link" href="#masthread">Cart</a>
+
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a style="color:black;" class="nav-link" href="#about">About Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a style="color:black;" class="nav-link" href="#services">Our Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a style="color:black;" class="nav-link" href="#team" tabindex="-1" aria-disabled="true">Our
+                            Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:black;" class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </nav>
+
+<!------About Section------->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>About Us</h2>
+                <div class="about-content">
+
+
+
+                </div>
+                <button type="button" class="btn btn-primary">Read More>>
+
+                </button>
+
+            </div>
+            <div class="col-md-6 skills-bar">
+                <p>Delivery Rate</p>
+                <div class="progress">
+                    <div class="progress-bar" style="width:85%;">85%</div>
+                </div>
+
+                <p>Customer Growth</p>
+                <div class="progress">
+                    <div class="progress-bar" style="width:75%;">75%</div>
+                </div>
+
+                <p>Happy Employee</p>
+                <div class="progress">
+                    <div class="progress-bar" style="width:90%;">90%</div>
+                </div>
+
+            </div>
+        </div>
+
     </div>
-     <div class="image">
-      <img src="/image/deliver.jpg" alt="">
-    </div>
-  </div>
- 
-
-
-
-
-<div class="wrapper">
-  <h1>our team</h1>
-  <div class="team">
-    <div class="team-members">
-      <div class="team-image">
-        <img src="/image/avatar3.png" alt="">
-      </div>
-      <h2>Jeremiah Juma</h2>
-      <p class="role"> The scrum master.</p>
-      <p>he is the scrum master and the <em>UI developer</em> he has played important role to make this project successfull</p>
-    </div>
-    <div class="team-members">
-      <div class="team-image">
-        <img src="/image/woman1.png" alt="">
-      </div>
-      <h2>Lorna Kirui</h2>
-      <p class="role"> The UI developer</p>
-      <p>She was the knowledge behind the cart section and worked hard to ensure all thing work as expected </p>
-    </div>
-    <div class="team-members">
-      <div class="team-image">
-        <img src="/image/avatar1.png" alt="">
-      </div>
-      <h2>Isaac </h2>
-      <p class="role">The UI developer</p>
-      <p>He was the knowledge behind the contact us page he played avery import part hence ensure the company is found when cliet need service</p>
-    </div>
-    <div class="team-members">
-      <div class="team-image">
-        <img src="/image/avatar2.jpeg" alt="">
-      </div>
-      <h2>Narikso Chege</h2>
-      <p class="role">The UI developer</p>
-      <p>He was the knowledge behind the cart section and the one who ensure all price tags are uptodate .</p>
-    </div>
-    <div class="team-members">
-      <div class="team-image">
-        <img src="/image/woman2.png" alt="">
-      </div>
-      <h2>Leah </h2>
-      <p class="role">The UI developer</p>
-      <p>She was the knowledge behind the home page she played avery import role to  ensure that homepage was intresting thus once visited something must be bought.</p>
-    </div>
-
-
-  </div>
-</div>
-
-
-
-
-  
-</body>
-</html>
+    <!------Services Section------->
+    <section id="services">
+    
+        <div class="container">
+            <h1>Our Services</h1>
+            <div class="row services">
+                <div class="col-md-4 text-center">
+                    <div class="icon">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <h3> 24/7 Support</h3>
+                    <p>on order related queries</p>
+                </div>
+    
+                <div class="col-md-4 text-center">
+                    <div class="icon">
+                        <i class="fa fa-shopping-cart"></i>
+                    </div>
+                    <h3> Return within 30 days</h3>
+                    <p>of receiving your order</p>
+                </div>
+    
+                <div class="col-md-4 text-center">
+                    <div class="icon">
+                        <i class="fa fa-truck"></i>
+                    </div>
+                    <h3>Get free delivery</h3>
+                    <p>on orders above 99Euro</p>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    <!-----Team------->
+    <section id="team">
+    
+        <div class="container">
+            <h1>Our Team</h1>
+            <div class="row">
+                <div class="col-md-3 profile-pic text-center">
+                    <div class="img-box">
+                        <img src="" class="img-responsive">
+                        <ul>
+                            <a href="https://www.facebook.com/">
+                                <li><i class="fa fa-facebook"></i></li>
+                            </a>
+                            <a href="https://twitter.com/login">
+                                <li><i class="fa fa-twitter"></i></li>
+                            </a>
+                            <a href="https://www.linkedin.com/home">
+                                <li><i class="fa fa-linkedin"></i></li>
+                            </a>
+                        </ul>
+                    </div>
+                    <h2>Jeremiah Juma</h2>
+                    <h3>Team Captain</h3>
+    
+                </div>
+    
+                <div class="col-md-3 profile-pic text-center">
+                    <div class="img-box">
+                        <img src="" class="img-responsive">
+                        <ul>
+                            <a href="https://www.facebook.com/">
+                                <li><i class="fa fa-facebook"></i></li>
+                            </a>
+                            <a href="https://twitter.com/login">
+                                <li><i class="fa fa-twitter"></i></li>
+                            </a>
+                            <a href="https://www.linkedin.com/home">
+                                <li><i class="fa fa-linkedin"></i></li>
+                            </a>
+                        </ul>
+                    </div>
+                    <h2>Narikso Chege </h2>
+                    <h3>Service Editor</h3>
+    
+                </div>
+    
+                <div class="col-md-3 profile-pic text-center">
+                    <div class="img-box">
+                        <img src="" class="img-responsive">
+                        <ul>
+                            <a href="https://www.facebook.com/">
+                                <li><i class="fa fa-facebook"></i></li>
+                            </a>
+                            <a href="https://twitter.com/login">
+                                <li><i class="fa fa-twitter"></i></li>
+                            </a>
+                            <a href="https://www.linkedin.com/home">
+                                <li><i class="fa fa-linkedin"></i></li>
+                            </a>
+                        </ul>
+                    </div>
+                    <h2>Isaac Wachira</h2>
+                    <h3>Contact Us </h3>
+    
+                </div>
+            </body>
+        </html>
