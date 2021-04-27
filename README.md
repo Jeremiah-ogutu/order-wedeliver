@@ -4,6 +4,9 @@
 Jeremiah Juma
 ## Description
 its a wedsite of Delani studio
+
+## Live Link
+https://jeremiah-ogutu.github.io/order-wedeliver/
 ## setup and installation
 to access this project on your file youhave to
 install git 
