@@ -1,116 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-	<title>Contact V8</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
+
 <body>
 
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
 
-	<div class="container-contact100">
-		<div class="contact100-map" id="google_map" data-map-x="40.722047" data-map-y="-73.986422" data-pin="images/icons/map-marker.png" data-scrollwhell="0" data-draggable="1"></div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="topnav">
+                <a style="color:black;" class="active" href="index.html">Home</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
 
-		<div class="wrap-contact100">
-			<form class="contact100-form validate-form">
-				<span class="contact100-form-title">
-					Contact Us
-				</span>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a style="color:black;" class="nav-link" href="cartN.html">Cart</a>
 
-				<div class="wrap-input100 validate-input" data-validate="Name is required">
-					<input class="input100" type="text" name="name" placeholder="First Name">
-					<span class="focus-input100-1"></span>
-					<span class="focus-input100-2"></span>
-				</div>
-                <div class="wrap-input100 validate-input" data-validate="Name is required">
-					<input class="input100" type="text" name="name" placeholder="Second Name">
-					<span class="focus-input100-1"></span>
-					<span class="focus-input100-2"></span>
-				</div>
+                    </li>
 
-				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-					<input class="input100" type="text" name="email" placeholder="Email" required>
-					<span class="focus-input100-1"></span>
-					<span class="focus-input100-2"></span>
-				</div>
 
-				<div class="wrap-input100 validate-input" data-validate = "Message is required">
-					<textarea class="input100" name="message" placeholder="Your Message"></textarea>
-					<span class="focus-input100-1"></span>
-					<span class="focus-input100-2"></span>
-				</div>
+                    <li class="nav-item">
+                        <a style="color:black;" class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:black;" class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
 
-				<div class="contact100-form-checkbox">
-					<input class="input-checkbox100" id="ckb1" type="checkbox" name="copy-mail">
-					<label class="label-checkbox100" for="ckb1">
-						Send copy to my-email
-					</label>
-				</div>
 
-				<div class="container-contact100-form-btn">
-					<button class="contact100-form-btn">
-						Send Email
-					</button>
-				</div>
-			</form>
-		</div>
-	</div>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="slider">
+            <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="10000">
+                        <img src="images/image1.jpg" class="d-block w-100" alt="..." style="width:auto;height:800px;">
+                    </div>
+                    <div class="carousel-item" data-interval="2000">
+                        <img src="images/image2.jpeg" class="d-block w-100" alt="..." style="width:auto;height:800px;">
+                    </div>
+                  
 
 
 
-	<div id="dropDownSelect1"></div>
+      
+         
 
-<!--===============================================================================================-->
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/animsition/js/animsition.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/daterangepicker/moment.min.js"></script>
-	<script src="vendor/daterangepicker/daterangepicker.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/countdowntime/countdowntime.js"></script>
-<!--===============================================================================================-->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes"></script>
-	<script src="js/map-custom.js"></script>
-<!--===============================================================================================-->
-	<script src="js/contact.js"></script>
+            <!------COntact------------>
+            <section id="contact">
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+                <div class="container">
+                    
+                    <div class="row">
+                        <div class="col-md-6">
+                            <!-- <h1 id="">Get In Touch</h1> -->
+                            <form class="contact-form">
+                                
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name..">
+                                </div>
+                                <div class="form-group">
+                                    <input type="number" class="form-control" placeholder="Phone no.">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email..">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="4" placeholder="Message.."></textarea>
+                                </div>
 
-  gtag('config', 'UA-23581568-13');
-</script>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                        <div class="col-md-6 contact-info">
+                            <div class="follow"><b><i class="fa fa-map-marker"></i> </b>Streep Road,Copenhagen,Denmark
+                            </div>
+                            <div class="follow"><b><i class="fa fa-mobile"></i> </b>(+254) 703 964 889</div>
+                            <div class="follow"><b><i class="fa fa-envelope"></i> </b>narikso.chege@gmail.com</div>
+
+
+                            <div class="follow"><label><b>Get Social </b></label>
+                                <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.youtube.com/"><i class="fa fa-youtube-play"></i></a>
+                                <a href="https://twitter.com/login"><i class="fa fa-twitter"></i></a>
+                                <a href="https://myaccount.google.com/"><i class="fa fa-google-plus"></i></a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
 
 </body>
+
 </html>
