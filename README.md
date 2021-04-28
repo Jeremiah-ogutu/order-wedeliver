@@ -10,9 +10,9 @@ Isaac wachira
 An application to do shopping for clients then deliver the shoping to theor door-steps
 
 ## Live Link
-https://jeremiah-ogutu.github.io/order-wedeliver/
+https://jeremiah-ogutu.github.io/order-wedeliver/index.html
 ## setup and installation
-to access this project on your file you have to
+To access this project on your file you have to
 install git 
  on terminal $ sudo apt install git-all
 
@@ -26,7 +26,7 @@ javascript
 ### licence
 this project is under the [MIT] (LINCEcE)
 Jeremiah Juma 
-copyrite 2021 Jeremiah Juma,Lorna Kirui,Isaac Washira,Leah
+copyrite 2021 Jeremiah Juma,Lorna Kirui,Isaac Washira,Leah & Narikso.
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
