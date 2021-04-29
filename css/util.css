@@ -2899,6 +2899,34 @@
 	-ms-align-items: stretch;
 	align-items: stretch;
 }
+#intro{
+	letter-spacing: 4px;
+	font-size: 100px;
+  font-family: "Monoton", cursive;
+	width: 80%;
+	position: relative;
+  padding: 15px 20px;
+ 
+  background: transparent;
+  text-transform: uppercase;
+  color: rgb(32, 36, 93);
+  outline: none;
+
+  cursor: pointer;
+  border-radius: 20px;
+  letter-spacing: 4px;
+
+}
+button {
+  border-color: #2196f3;
+  margin-left: 25px;
+}
+
+button:hover {
+  border-color: #cbe0f1;
+  border-style: none;
+}
+
 
 
 /*[ Absolute ]

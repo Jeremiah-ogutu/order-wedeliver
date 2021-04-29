@@ -858,6 +858,22 @@ p{
 body{
     background-color: dimgrey;
 }
+#intro{
+	letter-spacing: 4px;
+	position: relative;
+  padding: 15px 20px;
+ 
+  background: transparent;
+  text-transform: uppercase;
+  color: rgb(32, 36, 93);
+  outline: none;
+
+  cursor: pointer;
+  border-radius: 20px;
+  letter-spacing: 4px;              
+}
+
+
 
 
     

@@ -688,7 +688,7 @@ body#checkout-page #site-info {
 
 .shopping-cart tr:nth-child(even) {
 	background: #fafafa;
-},
+}
 
 .shopping-cart td.pdelete {
 	text-align: center;
@@ -838,6 +838,25 @@ body#checkout-page #site-info {
 #paypal-form {
 	margin: 1.5em 0;
 }
+.intro{
+		letter-spacing: 4px;
+		position: absolute;
+		margin-right: 10%;
+		left: 5%;
+		width: 50%;
+		bottom: 60%;
+		font-size: 60px;
+		font-family: "Monoton", cursive;
+		background: transparent;
+		/* opacity: 0.5; */
+color: rgb(32, 36, 93);
+border: none;
+
+}
+
+
+
+
 
     
 
